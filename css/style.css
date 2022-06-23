@@ -9,7 +9,7 @@
 
 main{
   background-image: url(../img/banner.png);
-  background-size:cover;
+  background-size:auto;
   background-repeat: repeat;
 }
 
@@ -119,6 +119,76 @@ h2{
   text-align: center;
 }
 
+/*Formulario*/
+
+.formulario{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.tituloForm{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #3C2313;
+}
+
+.inputForm{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+input{
+  margin: .5rem 0;
+  font-size: 1.5rem;
+  border: none;
+  background-color:#3C2313;
+  color: white;
+  border-radius: .5rem;
+}
+
+.botonesForm{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+form section button{
+  font-size: 1.5rem;
+  background-color: #F0A83E;
+  border: none;
+  border-radius:.5rem ;
+}
+
+.formChiquito{
+  padding: 1rem;
+  background-color:#F0A83E;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.botonFormChiquito{
+  font-size: 1.5rem;
+  background-color: #3C2313;
+  color: white;
+  margin: .5rem;
+}
 /*contacto*/
 
 .contacto{
@@ -141,6 +211,7 @@ h2{
   margin: .5rem;
   font-size: 1.5rem;
 }
+
 
 /*footer*/
 
